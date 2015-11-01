@@ -5,6 +5,8 @@ using strange.extensions.mediation.impl;
 public class GokuView : View
 {
     public const string ANIMATION_ATTACK = "Attack";
+    public const string ANIMATION_HURT = "Hurt";
+    public const string ANIMATION_DIE = "Die";
 
     #region Inspector
     [Header("Setup")]
@@ -13,6 +15,8 @@ public class GokuView : View
 
     [SerializeField]
     private Rigidbody2D _rigidbody;
+
+    public Lifebar Lifebar;
 
     [Header("Parameter")]
     [SerializeField]
@@ -50,6 +54,16 @@ public class GokuView : View
 
             Invoke("CreateKiBlast", 0.5f);
         }
+    }
+
+    public void Hurt()
+    {
+        _gokuAnimator.SetTrigger(ANIMATION_HURT);
+    }
+
+    public void Die()
+    {
+        _gokuAnimator.SetTrigger(ANIMATION_DIE);
     }
 
     private void CreateKiBlast()

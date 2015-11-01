@@ -6,6 +6,9 @@ using System;
 public class GokuMediator : Mediator
 {
     [Inject]
+    public IGameModel GameModel { get; set; }
+
+    [Inject]
     public GokuView View { get; set; }
 
     [Inject]
@@ -14,6 +17,9 @@ public class GokuMediator : Mediator
     public override void OnRegister()
     {
         base.OnRegister();
+
+        GameModel.MaxLive = 3;
+        GameModel.Reset();
 
         InputSignal.AddListener(OnInput);
     }
@@ -40,6 +46,27 @@ public class GokuMediator : Mediator
             if ((key == InputSignal.Key.Up || key == InputSignal.Key.Down))
             {
                 View.ResetMove();
+            }
+        }
+    }
+
+    public void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.tag == Tags.ENEMY || col.gameObject.tag == Tags.ENEMY_PROJECTILE)
+        {
+            GameModel.DecreaseLive();
+
+            if (GameModel.IsDead())
+            {
+                View.Die();
+            }
+            else
+            {
+                View.Hurt();
+                if (View.Lifebar != null)
+                {
+                    View.Lifebar.DecreaseHealth();
+                }
             }
         }
     }

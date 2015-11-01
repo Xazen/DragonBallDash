@@ -152,6 +152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _gokuAnimator: {fileID: 9588508}
   _rigidbody: {fileID: 5004346}
+  Lifebar: {fileID: 0}
   _speed: 5
   _kiBlast: {fileID: 109148, guid: 5f4cd78b574945547bccecc3b5deb073, type: 2}
   _fireRate: .5
