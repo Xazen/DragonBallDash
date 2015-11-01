@@ -3,6 +3,8 @@ using System.Collections;
 
 public interface IEnemyModel
 {
+    void Reset();
+
     #region Live
     int CurrentLive { get; set; }
     int MaxLive { get; set; }

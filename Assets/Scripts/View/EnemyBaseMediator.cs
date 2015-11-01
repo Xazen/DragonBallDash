@@ -1,15 +1,29 @@
 ﻿using UnityEngine;
 using System.Collections;
+using strange.extensions.mediation.impl;
 
-public class EnemyBaseMediator : MonoBehaviour {
+public class EnemyBaseMediator : Mediator
+{
+    [Inject]
+    public IEnemyModel EnemyModel { get; set; }
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    public override void OnRegister()
+    {
+        base.OnRegister();
+
+        EnemyModel.Reset();
+    }
+
+    public void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.tag == Tags.KI_BLAST)
+        {
+            EnemyModel.DecreaseLive();
+
+            if (EnemyModel.IsDead())
+            {
+                
+            }
+        }
+    }
 }

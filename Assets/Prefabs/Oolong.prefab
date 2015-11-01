@@ -9,6 +9,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 483892}
   - 114: {fileID: 11437306}
+  - 50: {fileID: 5052126}
+  - 61: {fileID: 6170112}
   m_Layer: 0
   m_Name: Oolong
   m_TagString: Untagged
@@ -58,6 +60,35 @@ Transform:
   - {fileID: 450328}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!50 &5052126
+Rigidbody2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146104}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &6170112
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146104}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: .159999996, y: 0}
+  serializedVersion: 2
+  m_Size: {x: .49000001, y: .400000006}
 --- !u!95 &9533502
 Animator:
   serializedVersion: 3
@@ -153,7 +184,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300106, guid: 19aa899e9aa30254cb2abd9193c7f041, type: 3}
+  m_Sprite: {fileID: 21300060, guid: 19aa899e9aa30254cb2abd9193c7f041, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
