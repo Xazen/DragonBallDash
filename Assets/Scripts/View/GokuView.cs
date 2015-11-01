@@ -17,16 +17,46 @@ public class GokuView : View
     [Header("Parameter")]
     [SerializeField]
     private float _speed;
+
+    [Header("Projectile")]
+    [SerializeField]
+    private GameObject _kiBlast;
+
+    [SerializeField]
+    private float _fireRate = 1.5f;
     #endregion
+
+    private float _fireDelay = 0.0f;
 
     public void Init()
     {
         
     }
 
+    public void Update()
+    {
+        if (_fireDelay >= 0)
+        {
+            _fireDelay -= Time.deltaTime;
+        }
+    }
+
     public void Attack()
     {
-        _gokuAnimator.SetTrigger(ANIMATION_ATTACK);
+        if (_fireDelay <= 0)
+        {
+            _fireDelay = _fireRate;
+            _gokuAnimator.SetTrigger(ANIMATION_ATTACK);
+
+            Invoke("CreateKiBlast", 0.5f);
+        }
+    }
+
+    private void CreateKiBlast()
+    {
+        Vector3 spawnPosition = this.transform.position;
+        spawnPosition.y += 0.5f;
+        Instantiate(_kiBlast, spawnPosition, Quaternion.identity);
     }
 
     public void MoveUp()

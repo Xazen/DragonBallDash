@@ -46,7 +46,7 @@ GameObject:
   - 50: {fileID: 5004346}
   m_Layer: 0
   m_Name: Goku
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -153,6 +153,8 @@ MonoBehaviour:
   _gokuAnimator: {fileID: 9588508}
   _rigidbody: {fileID: 5004346}
   _speed: 5
+  _kiBlast: {fileID: 109148, guid: 5f4cd78b574945547bccecc3b5deb073, type: 2}
+  _fireRate: .5
 --- !u!212 &21203356
 SpriteRenderer:
   m_ObjectHideFlags: 1

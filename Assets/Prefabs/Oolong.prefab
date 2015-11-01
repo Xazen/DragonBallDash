@@ -159,7 +159,9 @@ MonoBehaviour:
     m_PostInfinity: 2
   animationDurationY: 5
   animationDurationX: 3
-  animator: {fileID: 9533502}
+  projectile: {fileID: 0}
+  fireRate: 0
+  _animator: {fileID: 9533502}
 --- !u!212 &21214236
 SpriteRenderer:
   m_ObjectHideFlags: 1

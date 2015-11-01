@@ -29,6 +29,11 @@ public class GokuMediator : Mediator
             {
                 View.MoveDown();
             }
+
+            if (key == InputSignal.Key.Action)
+            {
+                View.Attack();
+            }
         }
         else if (state == InputSignal.State.Up)
         {
@@ -37,7 +42,5 @@ public class GokuMediator : Mediator
                 View.ResetMove();
             }
         }
-
-        
     }
 }

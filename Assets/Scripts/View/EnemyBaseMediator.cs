@@ -5,12 +5,16 @@ using strange.extensions.mediation.impl;
 public class EnemyBaseMediator : Mediator
 {
     [Inject]
+    public EnemyView View { get; set; }
+
+    [Inject]
     public IEnemyModel EnemyModel { get; set; }
 
     public override void OnRegister()
     {
         base.OnRegister();
 
+        EnemyModel.MaxLive = 3;
         EnemyModel.Reset();
     }
 
@@ -22,7 +26,11 @@ public class EnemyBaseMediator : Mediator
 
             if (EnemyModel.IsDead())
             {
-                
+                View.Die();
+            }
+            else
+            {
+                View.Hurt();
             }
         }
     }

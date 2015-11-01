@@ -16,4 +16,12 @@ public class KiBlastView : EventView
 
         _rigidbody.velocity = Vector2.right * _speed;
     }
+
+    public void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.gameObject.tag == Tags.ENEMY)
+        {
+            Destroy(this.gameObject);
+        }
+    }
 }
