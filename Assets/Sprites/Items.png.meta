@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 632d94fd730c87e4885b467e03a9c251
-timeCreated: 1446408723
+guid: 0acbbbeb5a598c24d838031e7ad732ac
+timeCreated: 1446412138
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -12,6 +12,13 @@ TextureImporter:
     21300010: Items_5
     21300012: Items_6
     21300014: Items_7
+    21300016: Items_8
+    21300018: Items_9
+    21300020: Items_10
+    21300022: Items_11
+    21300024: Items_12
+    21300026: Items_13
+    21300028: Items_14
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -62,7 +69,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 29
+        y: 91
         width: 21
         height: 22
       alignment: 0
@@ -72,7 +79,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 29
-        y: 29
+        y: 91
         width: 21
         height: 22
       alignment: 0
@@ -82,7 +89,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 58
-        y: 29
+        y: 91
         width: 21
         height: 22
       alignment: 0
@@ -92,7 +99,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 87
-        y: 29
+        y: 91
         width: 21
         height: 22
       alignment: 0
@@ -102,7 +109,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 116
-        y: 29
+        y: 91
         width: 21
         height: 22
       alignment: 0
@@ -112,7 +119,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 145
-        y: 29
+        y: 91
         width: 21
         height: 22
       alignment: 0
@@ -122,7 +129,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 62
         width: 21
         height: 22
       alignment: 0
@@ -132,9 +139,79 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 5
+        y: 67
         width: 14
         height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Items_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Items_9
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 34
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Items_10
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 34
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Items_11
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 34
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Items_12
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 34
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Items_13
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 34
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Items_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 21
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

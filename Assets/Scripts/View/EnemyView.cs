@@ -3,6 +3,7 @@ using System.Collections;
 using strange.extensions.mediation.impl;
 using DG.Tweening;
 using System;
+using UnityEngine.UI;
 
 public class EnemyView : View
 {
@@ -32,6 +33,10 @@ public class EnemyView : View
     [SerializeField]
     private Animator _animator;
 
+    [Header("DragonBall")]
+    [SerializeField]
+    private Image _dragonBall;
+
     protected override void Start()
     {
         base.Start();
@@ -53,6 +58,14 @@ public class EnemyView : View
     public void Die()
     {
         _animator.SetTrigger(DIE);
+
+        if (_dragonBall != null)
+        {
+            Color activeColor = _dragonBall.color;
+            activeColor.a = 1.0f;
+
+            _dragonBall.color = activeColor;
+        }
     }
 
     IEnumerator Attack()
