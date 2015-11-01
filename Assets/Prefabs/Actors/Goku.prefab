@@ -167,9 +167,9 @@ MonoBehaviour:
   _gokuAnimator: {fileID: 9588508}
   _rigidbody: {fileID: 5004346}
   Lifebar: {fileID: 0}
-  _speed: 5
+  _speed: 7
   _kiBlast: {fileID: 109148, guid: 5f4cd78b574945547bccecc3b5deb073, type: 2}
-  _fireRate: 1
+  _fireRate: .75
 --- !u!212 &21203356
 SpriteRenderer:
   m_ObjectHideFlags: 1

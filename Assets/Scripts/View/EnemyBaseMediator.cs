@@ -14,7 +14,7 @@ public class EnemyBaseMediator : Mediator
     {
         base.OnRegister();
 
-        EnemyModel.MaxLive = 3;
+        EnemyModel.MaxLive = View.Life;
         EnemyModel.Reset();
     }
 

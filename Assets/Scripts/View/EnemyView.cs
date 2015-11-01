@@ -11,6 +11,9 @@ public class EnemyView : View
     private const string DIE = "Die";
     private const string ATTACK = "Attack";
 
+    [Header("Life")]
+    public int Life = 3;
+
     [Header("Movement")]
     [SerializeField]
     private AnimationCurve movementCurveX;
@@ -35,7 +38,7 @@ public class EnemyView : View
 
     [Header("DragonBall")]
     [SerializeField]
-    private Image _dragonBall;
+    private string _dragonBall;
 
     protected override void Start()
     {
@@ -62,12 +65,29 @@ public class EnemyView : View
             _animator.SetTrigger(DIE);
         }
 
-        if (_dragonBall != null)
+        if (_dragonBall != null && _dragonBall != "")
         {
-            Color activeColor = _dragonBall.color;
-            activeColor.a = 1.0f;
+            GameObject dbObj = GameObject.FindGameObjectWithTag(_dragonBall);
 
-            _dragonBall.color = activeColor;
+            if (dbObj == null)
+            {
+                Debug.LogError("DB object not found: " + _dragonBall, this);
+                return;
+            }
+
+            Image dbImg = dbObj.GetComponent<Image>();
+
+            if (dbImg != null)
+            {
+                Color activeColor = dbImg.color;
+                activeColor.a = 1.0f;
+
+                dbImg.color = activeColor;
+            }
+            else
+            {
+                Debug.LogError("DB Image not found: " + _dragonBall, this);
+            }
         }
     }
 
@@ -77,9 +97,11 @@ public class EnemyView : View
         {
             yield return new WaitForSeconds(fireRate);
 
-            _animator.SetTrigger(ATTACK);
-
-            Instantiate(projectile, this.transform.position, Quaternion.identity);
+            if (_animator != null)
+            {
+                _animator.SetTrigger(ATTACK);
+                Instantiate(projectile, this.transform.position, Quaternion.identity);
+            }
         }
 
     }

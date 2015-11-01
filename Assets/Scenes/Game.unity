@@ -85,6 +85,48 @@ NavMeshSettings:
     cellSize: .166666672
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &93757460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 192248, guid: 8a24c58a654412f449cc9f3fd6d7e76a, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 93757461}
+  - 61: {fileID: 93757462}
+  m_Layer: 0
+  m_Name: DestroyEnemyBullets
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &93757461
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 483532, guid: 8a24c58a654412f449cc9f3fd6d7e76a, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 93757460}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.73999977, y: -9.69999981, z: 0}
+  m_LocalScale: {x: 4, y: 61.417984, z: 4}
+  m_Children: []
+  m_Father: {fileID: 1630655849}
+  m_RootOrder: 5
+--- !u!61 &93757462
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6177278, guid: 8a24c58a654412f449cc9f3fd6d7e76a,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 93757460}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: .189999998}
+  serializedVersion: 2
+  m_Size: {x: .340000004, y: .379999995}
 --- !u!1 &189946435
 GameObject:
   m_ObjectHideFlags: 0
@@ -97,7 +139,7 @@ GameObject:
   - 114: {fileID: 189946437}
   m_Layer: 5
   m_Name: Image (4)
-  m_TagString: Untagged
+  m_TagString: DB5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -195,16 +237,57 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f573a355f702e84b9f8ba7fabd9b943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enemySpawnList: []
-  _enemySpawnTime: []
-  _enemySpawnVector: []
-  _minionSpawnList:
+  _enemySpawnList:
   - {fileID: 146104, guid: 945209d5d19ae1e4ba5d60203858e9cf, type: 2}
+  - {fileID: 146104, guid: c2dd542e888e01a46a84b055a08e739a, type: 2}
+  - {fileID: 146104, guid: 2b4086a1018d11c47a42abbc819eab4a, type: 2}
+  - {fileID: 146104, guid: 1762d40fd49d0e84c8cea49b02c48c6f, type: 2}
+  - {fileID: 146104, guid: 8ec37dfccc949494d8f565458135ed9b, type: 2}
+  - {fileID: 146104, guid: 0da2c5419366bb34fb4976627cc18ffc, type: 2}
+  - {fileID: 146104, guid: 3a80b0098c5820642bd18f2557cde287, type: 2}
+  _enemySpawnTime:
+  - 18
+  - 35
+  - 60
+  - 85
+  - 106
+  - 128
+  - 153
+  _enemySpawnVector:
+  - {x: 7.5, y: -4.4000001}
+  - {x: 7.5, y: -4.4000001}
+  - {x: 7.5, y: -4.4000001}
+  - {x: 7.5, y: -4.4000001}
+  - {x: 7.5, y: -4.4000001}
+  - {x: 7.5, y: -4.4000001}
+  - {x: 7.5, y: -4.4000001}
+  _minionSpawnList:
+  - {fileID: 177256, guid: fdae81ad31889e345aaa0e3d08412177, type: 2}
+  - {fileID: 177256, guid: e49c18cd096b2dc478dfec7fead09bca, type: 2}
+  - {fileID: 177256, guid: f44c1cf5bb5ad234585c78ded6be753b, type: 2}
+  - {fileID: 177256, guid: e1f036382d986904b946658bf82df4f1, type: 2}
+  - {fileID: 177256, guid: 7280ef16b7b649946875c90a7b8537a6, type: 2}
+  - {fileID: 177256, guid: 91af0ed16fa162e47b80ca0e5d8d88ff, type: 2}
   _spawnFrequency:
+  - 5
+  - 5
+  - 4
+  - 3
+  - 4
   - 3
   _StartEndTime:
-  - {x: 3, y: 12}
+  - {x: 8, y: 13}
+  - {x: 28, y: 43}
+  - {x: 53, y: 75}
+  - {x: 78, y: 93}
+  - {x: 106, y: 122}
+  - {x: 128, y: 143}
   _minionSpawnVector:
+  - {x: 7.5, y: -4.4000001}
+  - {x: 7.5, y: -4.4000001}
+  - {x: 7.5, y: -4.4000001}
+  - {x: 7.5, y: -4.4000001}
+  - {x: 7.5, y: -4.4000001}
   - {x: 7.5, y: -4.4000001}
 --- !u!1 &348032802
 GameObject:
@@ -218,7 +301,7 @@ GameObject:
   - 114: {fileID: 348032804}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: DB1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -498,7 +581,7 @@ GameObject:
   - 114: {fileID: 638592086}
   m_Layer: 5
   m_Name: Image (2)
-  m_TagString: Untagged
+  m_TagString: DB3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -637,7 +720,7 @@ GameObject:
   - 114: {fileID: 1057612441}
   m_Layer: 5
   m_Name: Image (3)
-  m_TagString: Untagged
+  m_TagString: DB4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -927,7 +1010,7 @@ GameObject:
   - 114: {fileID: 1613330100}
   m_Layer: 5
   m_Name: Image (1)
-  m_TagString: Untagged
+  m_TagString: DB2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1060,6 +1143,8 @@ Transform:
   - {fileID: 1083090111}
   - {fileID: 219954447}
   - {fileID: 288950905}
+  - {fileID: 93757461}
+  - {fileID: 1759149311}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!114 &1630655850
@@ -1206,6 +1291,48 @@ RectTransform:
   m_AnchoredPosition: {x: 10, y: 10}
   m_SizeDelta: {x: 240, y: 30}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1759149310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 192248, guid: 8a24c58a654412f449cc9f3fd6d7e76a, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1759149311}
+  - 61: {fileID: 1759149312}
+  m_Layer: 0
+  m_Name: DestroyEnemyBullets (1)
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1759149311
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 483532, guid: 8a24c58a654412f449cc9f3fd6d7e76a, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1759149310}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.78999996, y: -9.69999981, z: 0}
+  m_LocalScale: {x: 4, y: 61.417984, z: 4}
+  m_Children: []
+  m_Father: {fileID: 1630655849}
+  m_RootOrder: 6
+--- !u!61 &1759149312
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6177278, guid: 8a24c58a654412f449cc9f3fd6d7e76a,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1759149310}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: .189999998}
+  serializedVersion: 2
+  m_Size: {x: .340000004, y: .379999995}
 --- !u!1 &1818641353
 GameObject:
   m_ObjectHideFlags: 0
@@ -1218,7 +1345,7 @@ GameObject:
   - 114: {fileID: 1818641355}
   m_Layer: 5
   m_Name: Image (5)
-  m_TagString: Untagged
+  m_TagString: DB6
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1443,7 +1570,7 @@ GameObject:
   - 114: {fileID: 2016827538}
   m_Layer: 5
   m_Name: Image (6)
-  m_TagString: Untagged
+  m_TagString: DB7
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
