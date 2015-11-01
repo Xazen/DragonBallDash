@@ -1,0 +1,287 @@
+fileFormatVersion: 2
+guid: 2f78d2729bc390a43b6f3f943c5a83ed
+timeCreated: 1446420202
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Piccolo_1
+    21300002: Piccolo_9
+    21300004: Piccolo_25
+    21300006: Piccolo_26
+    21300008: Piccolo_27
+    21300010: Piccolo_28
+    21300012: Piccolo_29
+    21300014: Piccolo_30
+    21300016: Piccolo_31
+    21300018: Piccolo_32
+    21300020: Piccolo_33
+    21300022: Piccolo_34
+    21300024: Piccolo_35
+    21300026: Piccolo_36
+    21300028: Piccolo_37
+    21300030: Piccolo_38
+    21300032: Piccolo_39
+    21300034: Piccolo_40
+    21300036: Piccolo_41
+    21300038: Piccolo_42
+    21300040: Piccolo_43
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Piccolo_1
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 592
+        width: 78
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Piccolo_9
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 522
+        width: 78
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Piccolo_25
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 216
+        width: 58
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Piccolo_26
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 218
+        width: 58
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Piccolo_27
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 214
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Piccolo_28
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 214
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Piccolo_29
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 214
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Piccolo_30
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 210
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Piccolo_31
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 210
+        width: 56
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Piccolo_32
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 215
+        width: 57
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Piccolo_33
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 225
+        width: 43
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Piccolo_34
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 225
+        width: 43
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Piccolo_35
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 122
+        width: 79
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Piccolo_36
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 124
+        width: 84
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Piccolo_37
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 127
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Piccolo_38
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 137
+        width: 80
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Piccolo_39
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 137
+        width: 82
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Piccolo_40
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 12
+        width: 60
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Piccolo_41
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 17
+        width: 66
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Piccolo_42
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 16
+        width: 67
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Piccolo_43
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 24
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

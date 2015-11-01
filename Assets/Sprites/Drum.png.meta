@@ -1,0 +1,276 @@
+fileFormatVersion: 2
+guid: c34b32ecbc94bd242a0b5d28fcc45cff
+timeCreated: 1446420142
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Drum_0
+    21300002: Drum_1
+    21300004: Drum_2
+    21300006: Drum_3
+    21300008: Drum_4
+    21300010: Drum_5
+    21300012: Drum_6
+    21300014: Drum_7
+    21300016: Drum_8
+    21300018: Drum_9
+    21300020: Drum_10
+    21300022: Drum_14
+    21300024: Drum_23
+    21300026: Drum_30
+    21300028: Drum_31
+    21300030: Drum_32
+    21300032: Drum_33
+    21300034: Drum_34
+    21300036: Drum_35
+    21300038: Drum_36
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Drum_0
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 224
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Drum_1
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 224
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Drum_2
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 151
+        width: 74
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Drum_3
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 169
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Drum_4
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 151
+        width: 71
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Drum_5
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 151
+        width: 71
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Drum_6
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 179
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Drum_7
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 151
+        width: 82
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Drum_8
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 151
+        width: 71
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Drum_9
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 93
+        width: 78
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Drum_10
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Drum_14
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 92
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Drum_23
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 100
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Drum_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 22
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Drum_31
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 21
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Drum_32
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 21
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Drum_33
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 21
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Drum_34
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 21
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Drum_35
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 21
+        width: 62
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Drum_36
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 26
+        width: 63
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

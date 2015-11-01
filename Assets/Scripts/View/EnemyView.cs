@@ -34,6 +34,11 @@ public class EnemyView : View
     private float fireRate = 0f;
 
     [SerializeField]
+    private int multiFire = 1;
+    [SerializeField]
+    private float multiFireRate = 0.33f;
+
+    [SerializeField]
     private Animator _animator;
 
     [Header("DragonBall")]
@@ -97,10 +102,14 @@ public class EnemyView : View
         {
             yield return new WaitForSeconds(fireRate);
 
-            if (_animator != null)
+            for (int i = 0; i < multiFire; i++)
             {
-                _animator.SetTrigger(ATTACK);
-                Instantiate(projectile, this.transform.position, Quaternion.identity);
+                if (_animator != null)
+                {
+                    _animator.SetTrigger(ATTACK);
+                    Instantiate(projectile, this.transform.position, Quaternion.identity);
+                    yield return new WaitForSeconds(multiFireRate);
+                }
             }
         }
 

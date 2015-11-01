@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: 5f85c2aa861de5f4f8ddeef7ed63b397
+timeCreated: 1446420300
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Tien_0
+    21300002: Tien_1
+    21300004: Tien_2
+    21300006: Tien_3
+    21300008: Tien_4
+    21300010: Tien_5
+    21300012: Tien_6
+    21300014: Tien_7
+    21300016: Tien_8
+    21300018: Tien_9
+    21300020: Tien_10
+    21300022: Tien_11
+    21300024: Tien_12
+    21300026: Tien_13
+    21300028: Tien_14
+    21300030: Tien_16
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Tien_0
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 239
+        width: 29
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tien_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 241
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tien_2
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 248
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tien_3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 168
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tien_4
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 171
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tien_5
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 95
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tien_6
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 97
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tien_7
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 103
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tien_8
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 102
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tien_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 105
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tien_10
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 109
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tien_11
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 11
+        width: 26
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tien_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 14
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tien_13
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 14
+        width: 23
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tien_14
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 13
+        width: 24
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tien_16
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 30
+        width: 67
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

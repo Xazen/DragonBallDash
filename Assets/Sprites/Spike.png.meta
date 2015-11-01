@@ -1,0 +1,276 @@
+fileFormatVersion: 2
+guid: 37ba082e738d5114b99cccfbcad20793
+timeCreated: 1446420268
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Spike_0
+    21300002: Spike_1
+    21300004: Spike_2
+    21300006: Spike_3
+    21300008: Spike_4
+    21300010: Spike_5
+    21300012: Spike_6
+    21300014: Spike_7
+    21300016: Spike_8
+    21300018: Spike_9
+    21300020: Spike_10
+    21300022: Spike_11
+    21300024: Spike_12
+    21300026: Spike_13
+    21300028: Spike_14
+    21300030: Spike_15
+    21300032: Spike_16
+    21300034: Spike_17
+    21300036: Spike_18
+    21300038: Spike_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Spike_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 297
+        width: 69
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spike_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 295
+        width: 69
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spike_2
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 218
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spike_3
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 210
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spike_4
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 211
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spike_5
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 206
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spike_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 215
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spike_7
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 103
+        width: 68
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spike_8
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 104
+        width: 69
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spike_9
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 104
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spike_10
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 102
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spike_11
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 104
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spike_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 14
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spike_13
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 20
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spike_14
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 27
+        width: 66
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spike_15
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 28
+        width: 65
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spike_16
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 32
+        width: 68
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spike_17
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 29
+        width: 57
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spike_18
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 21
+        width: 70
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spike_19
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 18
+        width: 59
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,243 @@
+fileFormatVersion: 2
+guid: ebcae116de9db6b42916f0b7efa6e113
+timeCreated: 1446420260
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SentryRobot_0
+    21300002: SentryRobot_1
+    21300004: SentryRobot_2
+    21300006: SentryRobot_3
+    21300008: SentryRobot_4
+    21300010: SentryRobot_5
+    21300012: SentryRobot_6
+    21300014: SentryRobot_7
+    21300016: SentryRobot_17
+    21300018: SentryRobot_18
+    21300020: SentryRobot_36
+    21300022: SentryRobot_37
+    21300024: SentryRobot_38
+    21300026: SentryRobot_39
+    21300028: SentryRobot_40
+    21300030: SentryRobot_41
+    21300032: SentryRobot_42
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SentryRobot_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 259
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SentryRobot_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 259
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SentryRobot_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 259
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SentryRobot_3
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 201
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SentryRobot_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 201
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SentryRobot_5
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 201
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SentryRobot_6
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 201
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SentryRobot_7
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 201
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SentryRobot_17
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 136
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SentryRobot_18
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 136
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SentryRobot_36
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 18
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SentryRobot_37
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 26
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SentryRobot_38
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 22
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SentryRobot_39
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 22
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SentryRobot_40
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 23
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SentryRobot_41
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 25
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SentryRobot_42
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 29
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
