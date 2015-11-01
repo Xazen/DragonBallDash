@@ -55,10 +55,12 @@ public class DragonBallDashContext : MVCSContext
     {
         //Injection binding.
         //Map a mock model and a mock service, both as Singletons
-        injectionBinder.Bind<ILiveModel>().To<LiveModel>();
+        injectionBinder.Bind<IGameModel>().To<GameModel>().ToSingleton();
+        injectionBinder.Bind<IEnemyModel>().To<EnemyModel>();
 
         //View/Mediator binding
         mediationBinder.Bind<GokuView>().To<GokuMediator>();
+        mediationBinder.Bind<EnemyView>().To<EnemyBaseMediator>();
 
         //Event/Command binding
         //commandBinder.Bind(ExampleEvent.REQUEST_WEB_SERVICE).To<CallWebServiceCommand>();
@@ -66,7 +68,7 @@ public class DragonBallDashContext : MVCSContext
 
         //The START event is fired as soon as mappings are complete.
         injectionBinder.Bind<InputSignal>().ToSingleton();
-
+        injectionBinder.Bind<SoundtrackSignal>().ToSingleton();
     }
 }
 

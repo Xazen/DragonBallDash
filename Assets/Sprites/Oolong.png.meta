@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: 19aa899e9aa30254cb2abd9193c7f041
+timeCreated: 1446397785
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Oolong_0
+    21300002: Oolong_1
+    21300004: Oolong_2
+    21300006: Oolong_3
+    21300008: Oolong_4
+    21300010: Oolong_5
+    21300012: Oolong_6
+    21300014: Oolong_7
+    21300016: Oolong_8
+    21300018: Oolong_9
+    21300020: Oolong_10
+    21300022: Oolong_11
+    21300024: Oolong_12
+    21300026: Oolong_13
+    21300028: Oolong_14
+    21300030: Oolong_15
+    21300032: Oolong_16
+    21300034: Oolong_17
+    21300036: Oolong_18
+    21300038: Oolong_19
+    21300040: Oolong_20
+    21300042: Oolong_21
+    21300044: Oolong_22
+    21300046: Oolong_23
+    21300048: Oolong_24
+    21300050: Oolong_25
+    21300052: Oolong_26
+    21300054: Oolong_27
+    21300056: Oolong_28
+    21300058: Oolong_29
+    21300060: Oolong_30
+    21300062: Oolong_31
+    21300064: Oolong_32
+    21300066: Oolong_33
+    21300068: Oolong_34
+    21300070: Oolong_35
+    21300072: Oolong_36
+    21300074: Oolong_37
+    21300076: Oolong_38
+    21300078: Oolong_39
+    21300080: Oolong_40
+    21300082: Oolong_41
+    21300084: Oolong_42
+    21300086: Oolong_43
+    21300088: Oolong_44
+    21300090: Oolong_45
+    21300092: Oolong_46
+    21300094: Oolong_47
+    21300096: Oolong_48
+    21300098: Oolong_49
+    21300100: Oolong_50
+    21300102: Oolong_51
+    21300104: Oolong_52
+    21300106: Oolong_53
+    21300108: Oolong_54
+    21300110: Oolong_55
+    21300112: Oolong_56
+    21300114: Oolong_57
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Oolong_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 259
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 259
+        width: 44
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 259
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_3
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 259
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_4
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 255
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_5
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 258
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 259
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_7
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 259
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_8
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 258
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_9
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 258
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_10
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 256
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_11
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 256
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_12
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 249
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_13
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 251
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_14
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 250
+        width: 41
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_15
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 200
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_16
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 199
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_17
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 189
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_18
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 187
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_19
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 183
+        width: 53
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_20
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 179
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_24
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 207
+        width: 41
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_28
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 205
+        width: 46
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_30
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 133
+        width: 77
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_31
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 133
+        width: 63
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_32
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 133
+        width: 65
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_33
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 133
+        width: 73
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_34
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 68
+        width: 77
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 68
+        width: 63
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_36
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 68
+        width: 65
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_37
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 68
+        width: 73
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_38
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 86
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_39
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 68
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_40
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 68
+        width: 68
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_41
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 68
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_42
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 93
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_43
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 68
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_44
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 85
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_45
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 15
+        width: 56
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_46
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 15
+        width: 59
+        height: 41
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_47
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 35
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_48
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 17
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_49
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 17
+        width: 67
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_50
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 17
+        width: 62
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_51
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 41
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_52
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 17
+        width: 53
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_53
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 20
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_54
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 20
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_55
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 20
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_56
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 20
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Oolong_57
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 33
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
