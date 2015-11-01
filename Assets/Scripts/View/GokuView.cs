@@ -52,7 +52,7 @@ public class GokuView : View
             _fireDelay = _fireRate;
             _gokuAnimator.SetTrigger(ANIMATION_ATTACK);
 
-            Invoke("CreateKiBlast", 0.5f);
+            Invoke("CreateKiBlast", 0.25f);
         }
     }
 
@@ -69,7 +69,7 @@ public class GokuView : View
     private void CreateKiBlast()
     {
         Vector3 spawnPosition = this.transform.position;
-        spawnPosition.y += 0.5f;
+        spawnPosition.y += 0.75f;
         Instantiate(_kiBlast, spawnPosition, Quaternion.identity);
     }
 

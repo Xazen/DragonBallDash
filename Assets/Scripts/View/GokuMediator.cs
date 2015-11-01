@@ -55,6 +55,10 @@ public class GokuMediator : Mediator
         if (col.gameObject.tag == Tags.ENEMY || col.gameObject.tag == Tags.ENEMY_PROJECTILE)
         {
             GameModel.DecreaseLive();
+            if (View.Lifebar != null)
+            {
+                View.Lifebar.DecreaseHealth();
+            }
 
             if (GameModel.IsDead())
             {
@@ -63,10 +67,6 @@ public class GokuMediator : Mediator
             else
             {
                 View.Hurt();
-                if (View.Lifebar != null)
-                {
-                    View.Lifebar.DecreaseHealth();
-                }
             }
         }
     }

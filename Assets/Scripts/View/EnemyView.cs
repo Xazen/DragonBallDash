@@ -57,7 +57,10 @@ public class EnemyView : View
 
     public void Die()
     {
-        _animator.SetTrigger(DIE);
+        if (_animator != null)
+        {
+            _animator.SetTrigger(DIE);
+        }
 
         if (_dragonBall != null)
         {

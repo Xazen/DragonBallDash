@@ -25,6 +25,8 @@ public class SoundtrackDispatcher : EventView
             float timeNow = Mathf.Round(_soundtrack.time);
             if (currentTime != timeNow)
             {
+                Debug.Log("Time: " + currentTime);
+
                 currentTime = timeNow;
                 SoundtrackSignal.Dispatch(currentTime);
             }

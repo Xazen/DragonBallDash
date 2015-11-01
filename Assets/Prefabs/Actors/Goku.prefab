@@ -44,6 +44,7 @@ GameObject:
   - 4: {fileID: 483532}
   - 114: {fileID: 11472384}
   - 50: {fileID: 5004346}
+  - 61: {fileID: 6177278}
   m_Layer: 0
   m_Name: Goku
   m_TagString: Player
@@ -105,6 +106,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!61 &6177278
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 192248}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: .189999998}
+  serializedVersion: 2
+  m_Size: {x: .340000004, y: .379999995}
 --- !u!95 &9508858
 Animator:
   serializedVersion: 3
@@ -155,7 +169,7 @@ MonoBehaviour:
   Lifebar: {fileID: 0}
   _speed: 5
   _kiBlast: {fileID: 109148, guid: 5f4cd78b574945547bccecc3b5deb073, type: 2}
-  _fireRate: .5
+  _fireRate: 1
 --- !u!212 &21203356
 SpriteRenderer:
   m_ObjectHideFlags: 1
