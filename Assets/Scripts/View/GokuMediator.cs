@@ -28,15 +28,15 @@ public class GokuMediator : Mediator
     {
         if (state == InputSignal.State.Down)
         {
-            if (key == InputSignal.Key.Up)
+            if (key == InputSignal.Key.Up && !GameModel.IsDead())
             {
                 View.MoveUp();
-            } else if (key == InputSignal.Key.Down)
+            } else if (key == InputSignal.Key.Down && !GameModel.IsDead())
             {
                 View.MoveDown();
             }
 
-            if (key == InputSignal.Key.Action)
+            if (key == InputSignal.Key.Action && !GameModel.IsDead())
             {
                 View.Attack();
             }
