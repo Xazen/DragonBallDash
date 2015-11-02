@@ -95,6 +95,7 @@ GameObject:
   - 224: {fileID: 8330428}
   - 222: {fileID: 8330427}
   - 114: {fileID: 8330426}
+  - 114: {fileID: 8330429}
   m_Layer: 5
   m_Name: LoseDialog
   m_TagString: Untagged
@@ -153,6 +154,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
+--- !u!114 &8330429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 8330425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 359206b4b6d5ba64b9e189125f0df73d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &93757460
 GameObject:
   m_ObjectHideFlags: 0
@@ -1218,7 +1230,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Click here to restart
+  m_Text: Press Any Key to restart
 --- !u!222 &1472063158
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1597,11 +1609,11 @@ RectTransform:
   - {fileID: 2016827537}
   m_Father: {fileID: 2078335039}
   m_RootOrder: 1
-  m_AnchorMin: {x: .0233094711, y: .0329999998}
-  m_AnchorMax: {x: .584000051, y: .163688511}
-  m_AnchoredPosition: {x: 0, y: 2}
-  m_SizeDelta: {x: -3, y: -2}
-  m_Pivot: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -10, y: -10}
+  m_SizeDelta: {x: 436, y: 55}
+  m_Pivot: {x: 1, y: 1}
 --- !u!1 &1759149310
 GameObject:
   m_ObjectHideFlags: 0
