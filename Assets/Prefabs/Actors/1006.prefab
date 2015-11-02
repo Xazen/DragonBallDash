@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32d89f8fea4097640a628c940c6c82c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Life: 3
+  Life: 5
   movementCurveX:
     serializedVersion: 2
     m_Curve:
@@ -158,11 +158,11 @@ MonoBehaviour:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-  animationDurationY: 5
-  animationDurationX: 3
+  animationDurationY: 3
+  animationDurationX: 2
   projectile: {fileID: 109148, guid: 9035ac955fc8a1c4390015095d8fa7b1, type: 2}
-  fireRate: 2
-  multiFire: 4
+  fireRate: 2.5
+  multiFire: 6
   multiFireRate: .100000001
   _animator: {fileID: 9533502}
   _dragonBall: DB6
@@ -213,15 +213,27 @@ Prefab:
       objectReference: {fileID: 109148, guid: 9035ac955fc8a1c4390015095d8fa7b1, type: 2}
     - target: {fileID: 0}
       propertyPath: fireRate
-      value: 2
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: multiFire
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: multiFireRate
       value: .100000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Life
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: animationDurationY
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: animationDurationX
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

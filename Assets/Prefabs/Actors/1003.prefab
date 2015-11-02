@@ -55,7 +55,7 @@ Transform:
   m_GameObject: {fileID: 146104}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
+  m_LocalScale: {x: -2.5, y: 2.5, z: 2.5}
   m_Children:
   - {fileID: 450328}
   m_Father: {fileID: 0}
@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32d89f8fea4097640a628c940c6c82c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Life: 3
+  Life: 5
   movementCurveX:
     serializedVersion: 2
     m_Curve:
@@ -126,10 +126,30 @@ MonoBehaviour:
       inSlope: 0
       outSlope: 0
       tangentMode: 0
-    - time: .5
-      value: .299999982
+    - time: .299999982
+      value: .389999986
+      inSlope: 3.59475613
+      outSlope: 3.59475613
+      tangentMode: 0
+    - time: .399999976
+      value: 1
       inSlope: 0
       outSlope: 0
+      tangentMode: 0
+    - time: .497142851
+      value: .308015287
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .599999964
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .699999988
+      value: .399999976
+      inSlope: -3.69936228
+      outSlope: -3.69936228
       tangentMode: 0
     - time: 1
       value: 0
@@ -158,7 +178,7 @@ MonoBehaviour:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-  animationDurationY: 5
+  animationDurationY: 7
   animationDurationX: 3
   projectile: {fileID: 0}
   fireRate: 0
@@ -200,6 +220,10 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
       propertyPath: _dragonBall
       value: DB3
       objectReference: {fileID: 0}
@@ -210,6 +234,74 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: multiFireRate
       value: .100000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[1].time
+      value: .299999982
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[1].value
+      value: .389999986
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalScale.x
+      value: -2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[1].inSlope
+      value: 3.59475613
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[1].outSlope
+      value: 3.59475613
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[2].time
+      value: .399999976
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[2].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[3].time
+      value: .497142851
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[3].value
+      value: .308015287
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[4].time
+      value: .599999964
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[4].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[5].time
+      value: .699999988
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[5].value
+      value: .399999976
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[5].inSlope
+      value: -3.69936228
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[5].outSlope
+      value: -3.69936228
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: animationDurationY
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Life
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

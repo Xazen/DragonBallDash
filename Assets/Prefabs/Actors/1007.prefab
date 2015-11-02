@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32d89f8fea4097640a628c940c6c82c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Life: 3
+  Life: 8
   movementCurveX:
     serializedVersion: 2
     m_Curve:
@@ -126,8 +126,63 @@ MonoBehaviour:
       inSlope: 0
       outSlope: 0
       tangentMode: 0
-    - time: .5
-      value: .299999982
+    - time: .0894223303
+      value: .000949516892
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .137142852
+      value: .302290052
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .143688023
+      value: .00184878707
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .414240628
+      value: .0014117423
+      inSlope: -.00279920641
+      outSlope: -.00279920641
+      tangentMode: 0
+    - time: .442878842
+      value: .301096052
+      inSlope: -.00318919774
+      outSlope: -.00318919774
+      tangentMode: 0
+    - time: .447939575
+      value: -.000611722469
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .577142835
+      value: -.000526886783
+      inSlope: .0011920929
+      outSlope: .0011920929
+      tangentMode: 0
+    - time: .612836897
+      value: .298521221
+      inSlope: .00165629899
+      outSlope: .00165629899
+      tangentMode: 0
+    - time: .617379248
+      value: .00194510818
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .818342805
+      value: .000899006496
+      inSlope: -.0076071592
+      outSlope: -.0076071592
+      tangentMode: 0
+    - time: .838578939
+      value: .298516572
+      inSlope: -.00517495209
+      outSlope: -.00517495209
+      tangentMode: 0
+    - time: .861085653
+      value: .000720411073
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -142,28 +197,98 @@ MonoBehaviour:
     serializedVersion: 2
     m_Curve:
     - time: 0
-      value: 0
+      value: .00190842152
       inSlope: 0
       outSlope: 0
       tangentMode: 0
-    - time: .5
-      value: 1
+    - time: .0729421228
+      value: .167176336
+      inSlope: 2.91779637
+      outSlope: 2.91779637
+      tangentMode: 0
+    - time: .15120323
+      value: 1.13260937
+      inSlope: 2.51740217
+      outSlope: 2.51740217
+      tangentMode: 0
+    - time: .208239838
+      value: -.0380286276
+      inSlope: .794529915
+      outSlope: .794529915
+      tangentMode: 0
+    - time: .272271395
+      value: .851146579
+      inSlope: 3.95655632
+      outSlope: 3.95655632
+      tangentMode: 0
+    - time: .32446906
+      value: .418559015
+      inSlope: 2.70694494
+      outSlope: 2.70694494
+      tangentMode: 0
+    - time: .38048017
+      value: .108110785
+      inSlope: 8.82118988
+      outSlope: 8.82118988
+      tangentMode: 0
+    - time: .454703569
+      value: 1.24119961
       inSlope: 0
       outSlope: 0
+      tangentMode: 0
+    - time: .534145892
+      value: .13480559
+      inSlope: -1.72525644
+      outSlope: -1.72525644
+      tangentMode: 0
+    - time: .618030488
+      value: .88336736
+      inSlope: -1.6514957
+      outSlope: -1.6514957
+      tangentMode: 0
+    - time: .623825729
+      value: -.204839617
+      inSlope: -2.93314457
+      outSlope: -2.93314457
+      tangentMode: 0
+    - time: .697613001
+      value: .540303528
+      inSlope: -.982582569
+      outSlope: -.982582569
+      tangentMode: 0
+    - time: .735548079
+      value: .211337388
+      inSlope: 11.6252899
+      outSlope: 11.6252899
+      tangentMode: 0
+    - time: .773052275
+      value: 1.16420078
+      inSlope: -1.8401444
+      outSlope: -1.8401444
+      tangentMode: 0
+    - time: .813056231
+      value: .0892561823
+      inSlope: -5.04434109
+      outSlope: -5.04434109
+      tangentMode: 0
+    - time: .894446671
+      value: .516908169
+      inSlope: 1.07571483
+      outSlope: 1.07571483
       tangentMode: 0
     - time: 1
-      value: 0
+      value: .00190842152
       inSlope: 0
       outSlope: 0
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-  animationDurationY: 5
-  animationDurationX: 3
+  animationDurationY: 10
+  animationDurationX: 8
   projectile: {fileID: 109148, guid: dabfef0958f7d904ea27ed7f6dc2361b, type: 2}
-  fireRate: 2
+  fireRate: 3
   multiFire: 5
-  multiFireRate: .100000001
+  multiFireRate: .159999996
   _animator: {fileID: 9533502}
   _dragonBall: DB7
 --- !u!212 &21214236
@@ -200,6 +325,14 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.size
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.size
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
       propertyPath: _dragonBall
       value: DB7
       objectReference: {fileID: 0}
@@ -213,7 +346,7 @@ Prefab:
       objectReference: {fileID: 109148, guid: dabfef0958f7d904ea27ed7f6dc2361b, type: 2}
     - target: {fileID: 0}
       propertyPath: fireRate
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: multiFire
@@ -221,7 +354,455 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: multiFireRate
-      value: .100000001
+      value: .159999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: Life
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[1].time
+      value: .0894223303
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[1].value
+      value: .000949516892
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[1].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[1].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[2].time
+      value: .137142852
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[2].value
+      value: .302290052
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[2].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[2].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[3].time
+      value: .143688023
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[3].value
+      value: .00184878707
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[3].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[3].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[4].time
+      value: .414240628
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[4].value
+      value: .0014117423
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[4].inSlope
+      value: -.00279920641
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[4].outSlope
+      value: -.00279920641
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[5].time
+      value: .442878842
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[5].value
+      value: .301096052
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[5].inSlope
+      value: -.00318919774
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[5].outSlope
+      value: -.00318919774
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[6].time
+      value: .447939575
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[6].value
+      value: -.000611722469
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[6].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[6].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[7].time
+      value: .577142835
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[7].value
+      value: -.000526886783
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[7].inSlope
+      value: .0011920929
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[7].outSlope
+      value: .0011920929
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[8].time
+      value: .612836897
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[8].value
+      value: .298521221
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[8].inSlope
+      value: .00165629899
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[8].outSlope
+      value: .00165629899
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[9].time
+      value: .617379248
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[9].value
+      value: .00194510818
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[9].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[9].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[10].time
+      value: .818342805
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[10].value
+      value: .000899006496
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[10].inSlope
+      value: -.0076071592
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[10].outSlope
+      value: -.0076071592
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[11].time
+      value: .838578939
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[11].value
+      value: .298516572
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[11].inSlope
+      value: -.00517495209
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[11].outSlope
+      value: -.00517495209
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[12].time
+      value: .861085653
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[12].value
+      value: .000720411073
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[12].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveX.m_Curve.Array.data[12].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: animationDurationX
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[1].time
+      value: .0729421228
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[1].value
+      value: .167176336
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[1].inSlope
+      value: 2.91779637
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[1].outSlope
+      value: 2.91779637
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[2].time
+      value: .15120323
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[2].value
+      value: 1.13260937
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[2].inSlope
+      value: 2.51740217
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[2].outSlope
+      value: 2.51740217
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[3].time
+      value: .208239838
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[3].value
+      value: -.0380286276
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[0].value
+      value: .00190842152
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[4].value
+      value: .851146579
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[3].inSlope
+      value: .794529915
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[3].outSlope
+      value: .794529915
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[4].time
+      value: .272271395
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[4].inSlope
+      value: 3.95655632
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[4].outSlope
+      value: 3.95655632
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[5].time
+      value: .32446906
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[5].value
+      value: .418559015
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[5].inSlope
+      value: 2.70694494
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[5].outSlope
+      value: 2.70694494
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[6].time
+      value: .38048017
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[6].value
+      value: .108110785
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[7].value
+      value: 1.24119961
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[7].time
+      value: .454703569
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[7].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[7].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[8].time
+      value: .534145892
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[8].value
+      value: .13480559
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[8].inSlope
+      value: -1.72525644
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[8].outSlope
+      value: -1.72525644
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[9].time
+      value: .618030488
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[9].value
+      value: .88336736
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[9].inSlope
+      value: -1.6514957
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[9].outSlope
+      value: -1.6514957
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[10].time
+      value: .623825729
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[10].value
+      value: -.204839617
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[10].inSlope
+      value: -2.93314457
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[10].outSlope
+      value: -2.93314457
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[11].time
+      value: .697613001
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[11].value
+      value: .540303528
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[11].inSlope
+      value: -.982582569
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[11].outSlope
+      value: -.982582569
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[12].time
+      value: .735548079
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[12].value
+      value: .211337388
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[12].inSlope
+      value: 11.6252899
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[12].outSlope
+      value: 11.6252899
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[13].time
+      value: .773052275
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[13].value
+      value: 1.16420078
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[13].inSlope
+      value: -1.8401444
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[13].outSlope
+      value: -1.8401444
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: animationDurationY
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[6].inSlope
+      value: 8.82118988
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[6].outSlope
+      value: 8.82118988
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[14].time
+      value: .813056231
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[14].value
+      value: .0892561823
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[14].inSlope
+      value: -5.04434109
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[14].outSlope
+      value: -5.04434109
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[15].time
+      value: .894446671
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[15].value
+      value: .516908169
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[15].inSlope
+      value: 1.07571483
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementCurveY.m_Curve.Array.data[15].outSlope
+      value: 1.07571483
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

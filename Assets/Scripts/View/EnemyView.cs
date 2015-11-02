@@ -49,7 +49,7 @@ public class EnemyView : View
     {
         base.Start();
 
-        this.transform.DOMoveX(-5.0f, animationDurationX).SetEase(movementCurveX).SetLoops(-1);
+        this.transform.DOMoveX(-6.5f, animationDurationX).SetEase(movementCurveX).SetLoops(-1);
         this.transform.DOMoveY(4.0f, animationDurationY).SetEase(movementCurveY).SetLoops(-1);
 
         if (fireRate > 0 && projectile != null)

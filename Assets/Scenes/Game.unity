@@ -268,7 +268,7 @@ MonoBehaviour:
   - {fileID: 177256, guid: e1f036382d986904b946658bf82df4f1, type: 2}
   - {fileID: 177256, guid: 7739cf4d45ddb6d4ca1e91a06e91e063, type: 2}
   - {fileID: 177256, guid: 91c73c27c7f21f64ca37d78175a1ef92, type: 2}
-  - {fileID: 146104, guid: 76e5024422a053c4c8fd11a38525bdc5, type: 2}
+  - {fileID: 146104, guid: 346138c032921a446bf8b5b8c99e92a2, type: 2}
   _spawnFrequency:
   - 5
   - 5
@@ -393,7 +393,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 10, y: -10}
-  m_SizeDelta: {x: 42, y: 14}
+  m_SizeDelta: {x: 70, y: 14}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &524148726
 MonoBehaviour:
