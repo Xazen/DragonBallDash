@@ -45,6 +45,7 @@ GameObject:
   - 114: {fileID: 11472384}
   - 50: {fileID: 5004346}
   - 61: {fileID: 6177278}
+  - 82: {fileID: 8260604}
   m_Layer: 0
   m_Name: Goku
   m_TagString: Player
@@ -114,11 +115,81 @@ BoxCollider2D:
   m_GameObject: {fileID: 192248}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: .189999998}
   serializedVersion: 2
   m_Size: {x: .340000004, y: .379999995}
+--- !u!82 &8260604
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 192248}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!95 &9508858
 Animator:
   serializedVersion: 3
@@ -170,6 +241,10 @@ MonoBehaviour:
   _speed: 7
   _kiBlast: {fileID: 109148, guid: 5f4cd78b574945547bccecc3b5deb073, type: 2}
   _fireRate: .75
+  _audioSource: {fileID: 8260604}
+  HurtClip: {fileID: 8300000, guid: d2226bed392aff04fb52850b03f729fd, type: 3}
+  DieClip: {fileID: 8300000, guid: 3791273fc492d504ea32f875b151e9db, type: 3}
+  AttackClip: {fileID: 8300000, guid: 41009f63d8b038043bc9fa6d8012bc11, type: 3}
 --- !u!212 &21203356
 SpriteRenderer:
   m_ObjectHideFlags: 1

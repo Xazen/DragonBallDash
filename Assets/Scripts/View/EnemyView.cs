@@ -78,7 +78,10 @@ public class EnemyView : View
     {
         if (_animator != null)
         {
-            _audioSource.PlayOneShot(DieClip);
+            if (_dragonBall == null || _dragonBall == "")
+            {
+                _audioSource.PlayOneShot(DieClip);
+            }
             _animator.SetTrigger(DIE);
         }
 

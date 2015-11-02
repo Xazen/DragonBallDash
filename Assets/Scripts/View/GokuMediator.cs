@@ -18,7 +18,7 @@ public class GokuMediator : Mediator
     {
         base.OnRegister();
 
-        GameModel.MaxLive = 5;
+        GameModel.MaxLive = 7;
         GameModel.Reset();
 
         InputSignal.AddListener(OnInput);
