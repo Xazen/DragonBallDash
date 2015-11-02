@@ -45,6 +45,16 @@ public class EnemyView : View
     [SerializeField]
     private string _dragonBall;
 
+    [Header("Sounds")]
+    [SerializeField]
+    private AudioSource _audioSource;
+
+    public AudioClip HurtClip;
+    public AudioClip DieClip;
+    public AudioClip AttackClip;
+
+    public AudioClip DBClip;
+
     protected override void Start()
     {
         base.Start();
@@ -60,6 +70,7 @@ public class EnemyView : View
 
     public void Hurt()
     {
+        _audioSource.PlayOneShot(HurtClip);
         _animator.SetTrigger(HURT);
     }
 
@@ -67,6 +78,7 @@ public class EnemyView : View
     {
         if (_animator != null)
         {
+            _audioSource.PlayOneShot(DieClip);
             _animator.SetTrigger(DIE);
         }
 
@@ -84,6 +96,11 @@ public class EnemyView : View
 
             if (dbImg != null)
             {
+                if (DBClip != null)
+                {
+                    _audioSource.PlayOneShot(DBClip);
+                }
+
                 Color activeColor = dbImg.color;
                 activeColor.a = 1.0f;
 
@@ -106,6 +123,7 @@ public class EnemyView : View
             {
                 if (_animator != null)
                 {
+                    _audioSource.PlayOneShot(AttackClip);
                     _animator.SetTrigger(ATTACK);
                     Instantiate(projectile, this.transform.position, Quaternion.identity);
                     yield return new WaitForSeconds(multiFireRate);

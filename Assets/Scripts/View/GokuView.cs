@@ -28,6 +28,14 @@ public class GokuView : View
 
     [SerializeField]
     private float _fireRate = 1.5f;
+
+    [Header("Sounds")]
+    [SerializeField]
+    private AudioSource _audioSource;
+
+    public AudioClip HurtClip;
+    public AudioClip DieClip;
+    public AudioClip AttackClip;
     #endregion
 
     private float _fireDelay = 0.0f;
@@ -58,16 +66,20 @@ public class GokuView : View
 
     public void Hurt()
     {
+        _audioSource.PlayOneShot(HurtClip);
         _gokuAnimator.SetTrigger(ANIMATION_HURT);
     }
 
     public void Die()
     {
+        _audioSource.PlayOneShot(DieClip);
         _gokuAnimator.SetTrigger(ANIMATION_DIE);
     }
 
     private void CreateKiBlast()
     {
+        _audioSource.PlayOneShot(AttackClip);
+
         Vector3 spawnPosition = this.transform.position;
         spawnPosition.y += 0.75f;
         Instantiate(_kiBlast, spawnPosition, Quaternion.identity);
