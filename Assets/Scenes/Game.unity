@@ -266,14 +266,16 @@ MonoBehaviour:
   - {fileID: 177256, guid: e49c18cd096b2dc478dfec7fead09bca, type: 2}
   - {fileID: 177256, guid: f44c1cf5bb5ad234585c78ded6be753b, type: 2}
   - {fileID: 177256, guid: e1f036382d986904b946658bf82df4f1, type: 2}
-  - {fileID: 177256, guid: 7280ef16b7b649946875c90a7b8537a6, type: 2}
-  - {fileID: 177256, guid: 91af0ed16fa162e47b80ca0e5d8d88ff, type: 2}
+  - {fileID: 177256, guid: 7739cf4d45ddb6d4ca1e91a06e91e063, type: 2}
+  - {fileID: 177256, guid: 91c73c27c7f21f64ca37d78175a1ef92, type: 2}
+  - {fileID: 146104, guid: 76e5024422a053c4c8fd11a38525bdc5, type: 2}
   _spawnFrequency:
   - 5
   - 5
   - 4
   - 3
   - 4
+  - 3
   - 3
   _StartEndTime:
   - {x: 8, y: 13}
@@ -282,7 +284,9 @@ MonoBehaviour:
   - {x: 78, y: 93}
   - {x: 106, y: 122}
   - {x: 128, y: 143}
+  - {x: 153, y: 170}
   _minionSpawnVector:
+  - {x: 7.5, y: -4.4000001}
   - {x: 7.5, y: -4.4000001}
   - {x: 7.5, y: -4.4000001}
   - {x: 7.5, y: -4.4000001}

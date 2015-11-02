@@ -29,7 +29,7 @@ GameObject:
   - 212: {fileID: 21214236}
   - 95: {fileID: 9533502}
   m_Layer: 0
-  m_Name: Oolong
+  m_Name: Piccolo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -86,9 +86,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: .159999996, y: 0}
+  m_Offset: {x: .0299999993, y: 0}
   serializedVersion: 2
-  m_Size: {x: .49000001, y: .400000006}
+  m_Size: {x: .400000006, y: 1}
 --- !u!95 &9533502
 Animator:
   serializedVersion: 3
@@ -98,7 +98,7 @@ Animator:
   m_GameObject: {fileID: 176556}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7a1df76a90ca92b4396c9f1320e57183, type: 2}
+  m_Controller: {fileID: 9100000, guid: bd78083c81c532546a98b9fde3cd12a4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -190,7 +190,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300060, guid: 19aa899e9aa30254cb2abd9193c7f041, type: 3}
+  m_Sprite: {fileID: 21300020, guid: 2f78d2729bc390a43b6f3f943c5a83ed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:

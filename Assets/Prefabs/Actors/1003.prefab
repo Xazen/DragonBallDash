@@ -29,7 +29,7 @@ GameObject:
   - 212: {fileID: 21214236}
   - 95: {fileID: 9533502}
   m_Layer: 0
-  m_Name: Oolong
+  m_Name: OfficerBlack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55,7 +55,7 @@ Transform:
   m_GameObject: {fileID: 146104}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_Children:
   - {fileID: 450328}
   m_Father: {fileID: 0}
@@ -86,9 +86,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: .159999996, y: 0}
+  m_Offset: {x: -.0500000007, y: 0}
   serializedVersion: 2
-  m_Size: {x: .49000001, y: .400000006}
+  m_Size: {x: .810000002, y: .899999976}
 --- !u!95 &9533502
 Animator:
   serializedVersion: 3
@@ -98,7 +98,7 @@ Animator:
   m_GameObject: {fileID: 176556}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7a1df76a90ca92b4396c9f1320e57183, type: 2}
+  m_Controller: {fileID: 9100000, guid: 09dcc3533cb1c9846b33966c23ade17b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -190,7 +190,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300060, guid: 19aa899e9aa30254cb2abd9193c7f041, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d212e615c7fa1a04b92ebc4685c5e6c7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:

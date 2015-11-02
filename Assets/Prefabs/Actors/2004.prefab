@@ -11,7 +11,7 @@ GameObject:
   - 212: {fileID: 21251488}
   - 95: {fileID: 9584542}
   m_Layer: 0
-  m_Name: FloatingCamera
+  m_Name: SentryRobot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -88,7 +88,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: .209999993, y: .25}
+  m_Size: {x: .469999999, y: .419999987}
 --- !u!95 &9584542
 Animator:
   serializedVersion: 3
@@ -98,7 +98,7 @@ Animator:
   m_GameObject: {fileID: 163200}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: af62947f3914d7944983616f8138b691, type: 2}
+  m_Controller: {fileID: 9100000, guid: a9b565c8627d6cd43bcb6290309fcc92, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -190,7 +190,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: fc62412e6e1e7df4fba4d78f94ebf0da, type: 3}
+  m_Sprite: {fileID: 21300004, guid: ebcae116de9db6b42916f0b7efa6e113, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
