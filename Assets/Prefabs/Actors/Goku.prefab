@@ -244,6 +244,7 @@ MonoBehaviour:
   _audioSource: {fileID: 8260604}
   HurtClip: {fileID: 8300000, guid: d2226bed392aff04fb52850b03f729fd, type: 3}
   DieClip: {fileID: 8300000, guid: 3791273fc492d504ea32f875b151e9db, type: 3}
+  WinClip: {fileID: 8300000, guid: 12114b2ddf1575c4082537a64ecd02f5, type: 3}
   AttackClip: {fileID: 8300000, guid: 41009f63d8b038043bc9fa6d8012bc11, type: 3}
 --- !u!212 &21203356
 SpriteRenderer:

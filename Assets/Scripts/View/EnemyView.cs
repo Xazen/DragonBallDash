@@ -45,9 +45,16 @@ public class EnemyView : View
     [SerializeField]
     private string _dragonBall;
 
+    [SerializeField]
+    private GameObject _dbAquired;
+
     [Header("Sounds")]
     [SerializeField]
     private AudioSource _audioSource;
+
+
+    [Inject]
+    public DBAquiredSignal DBAquiredSignal { get; set; }
 
     public AudioClip HurtClip;
     public AudioClip DieClip;
@@ -108,6 +115,11 @@ public class EnemyView : View
                 activeColor.a = 1.0f;
 
                 dbImg.color = activeColor;
+
+                DBAquiredSignal.Dispatch(_dragonBall);
+
+                GameObject dbAquired = Instantiate(_dbAquired);
+                dbAquired.transform.position = dbObj.transform.position;
             }
             else
             {

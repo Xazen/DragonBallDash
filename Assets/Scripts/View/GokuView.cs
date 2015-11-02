@@ -7,6 +7,7 @@ public class GokuView : View
     public const string ANIMATION_ATTACK = "Attack";
     public const string ANIMATION_HURT = "Hurt";
     public const string ANIMATION_DIE = "Die";
+    public const string ANIMATION_WIN = "Win";
 
     #region Inspector
     [Header("Setup")]
@@ -35,6 +36,7 @@ public class GokuView : View
 
     public AudioClip HurtClip;
     public AudioClip DieClip;
+    public AudioClip WinClip;
     public AudioClip AttackClip;
     #endregion
 
@@ -50,6 +52,16 @@ public class GokuView : View
         if (_fireDelay >= 0)
         {
             _fireDelay -= Time.deltaTime;
+        }
+
+        if (this.transform.position.y <= -5 && _rigidbody.velocity.y < 0)
+        {
+            ResetMove();
+        }
+
+        if (this.transform.position.y >= 3.5 && _rigidbody.velocity.y > 0)
+        {
+            ResetMove();
         }
     }
 
@@ -76,6 +88,12 @@ public class GokuView : View
         _gokuAnimator.SetTrigger(ANIMATION_DIE);
     }
 
+    public void Win()
+    {
+        _audioSource.PlayOneShot(WinClip); 
+        _gokuAnimator.SetTrigger(ANIMATION_WIN);
+    }
+
     private void CreateKiBlast()
     {
         _audioSource.PlayOneShot(AttackClip);
@@ -87,12 +105,18 @@ public class GokuView : View
 
     public void MoveUp()
     {
-        _rigidbody.velocity = Vector2.up * _speed;
+        if (this.transform.position.y < 3.5)
+        {
+            _rigidbody.velocity = Vector2.up * _speed;
+        }
     }
 
     public void MoveDown()
     {
-        _rigidbody.velocity = Vector2.down * _speed;
+        if (this.transform.position.y > -5)
+        {
+            _rigidbody.velocity = Vector2.down * _speed;
+        }
     }
 
     public void ResetMove()

@@ -14,6 +14,9 @@ public class GokuMediator : Mediator
     [Inject]
     public InputSignal InputSignal { get; set; }
 
+    [Inject]
+    public DBAquiredSignal DBAquiredSignal { get; set; }
+
     public override void OnRegister()
     {
         base.OnRegister();
@@ -22,6 +25,19 @@ public class GokuMediator : Mediator
         GameModel.Reset();
 
         InputSignal.AddListener(OnInput);
+        DBAquiredSignal.AddListener(OnDragonBallAquired);
+    }
+
+    private void OnDragonBallAquired(string obj)
+    {
+        if (obj == Tags.DB_7)
+        {
+            GameModel.IncreaseDragonBall();
+            if (GameModel.DragonBall == 7)
+            {
+                View.Win();
+            }
+        }
     }
 
     private void OnInput(InputSignal.Key key, InputSignal.State state)

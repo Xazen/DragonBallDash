@@ -272,6 +272,7 @@ MonoBehaviour:
   multiFireRate: .159999996
   _animator: {fileID: 9533502}
   _dragonBall: DB5
+  _dbAquired: {fileID: 0}
   _audioSource: {fileID: 8254890}
   HurtClip: {fileID: 8300000, guid: a7a2bae9637a7dd4ba2b5f6e5d2109b6, type: 3}
   DieClip: {fileID: 8300000, guid: f2249ab2a996a1e4b805e31647ffa558, type: 3}
@@ -510,6 +511,10 @@ Prefab:
       propertyPath: _audioSource
       value: 
       objectReference: {fileID: 8254890}
+    - target: {fileID: 0}
+      propertyPath: _dbAquired
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 146104}
