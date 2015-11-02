@@ -5,6 +5,6 @@ public class RestartButton : MonoBehaviour {
 
 	public void Restart()
     {
-        Application.LoadLevel(0);
+        Application.LoadLevel(1);
     }
 }
