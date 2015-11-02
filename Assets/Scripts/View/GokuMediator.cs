@@ -17,11 +17,19 @@ public class GokuMediator : Mediator
     [Inject]
     public DBAquiredSignal DBAquiredSignal { get; set; }
 
+    [Inject]
+    public LoseSignal LoseSignal { get; set; }
+
+    [Inject]
+    public WinSignal WinSignal { get; set; }
+
+    private bool won = false;
+
     public override void OnRegister()
     {
         base.OnRegister();
 
-        GameModel.MaxLive = 7;
+        GameModel.MaxLive = 6;
         GameModel.Reset();
 
         InputSignal.AddListener(OnInput);
@@ -30,13 +38,13 @@ public class GokuMediator : Mediator
 
     private void OnDragonBallAquired(string obj)
     {
+        GameModel.IncreaseDragonBall();
+        
         if (obj == Tags.DB_7)
         {
-            GameModel.IncreaseDragonBall();
-            if (GameModel.DragonBall == 7)
-            {
-                View.Win();
-            }
+            View.Win();
+            won = true;
+            WinSignal.Dispatch();
         }
     }
 
@@ -68,7 +76,7 @@ public class GokuMediator : Mediator
 
     public void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.tag == Tags.ENEMY || col.gameObject.tag == Tags.ENEMY_PROJECTILE)
+        if (col.gameObject.tag == Tags.ENEMY || col.gameObject.tag == Tags.ENEMY_PROJECTILE && !GameModel.IsDead() && !won)
         {
             GameModel.DecreaseLive();
             if (View.Lifebar != null)
@@ -79,6 +87,7 @@ public class GokuMediator : Mediator
             if (GameModel.IsDead())
             {
                 View.Die();
+                LoseSignal.Dispatch();
             }
             else
             {

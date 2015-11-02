@@ -68,6 +68,8 @@ public class DragonBallDashContext : MVCSContext
 
         //The START event is fired as soon as mappings are complete.
         injectionBinder.Bind<DBAquiredSignal>().ToSingleton();
+        injectionBinder.Bind<LoseSignal>().ToSingleton();
+        injectionBinder.Bind<WinSignal>().ToSingleton();
         injectionBinder.Bind<InputSignal>().ToSingleton();
         injectionBinder.Bind<SoundtrackSignal>().ToSingleton();
     }

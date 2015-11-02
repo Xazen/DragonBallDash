@@ -232,7 +232,7 @@ MonoBehaviour:
   animationDurationY: 3
   animationDurationX: 2
   projectile: {fileID: 109148, guid: 9035ac955fc8a1c4390015095d8fa7b1, type: 2}
-  fireRate: 2.5
+  fireRate: 2
   multiFire: 6
   multiFireRate: .100000001
   _animator: {fileID: 9533502}
@@ -290,7 +290,7 @@ Prefab:
       objectReference: {fileID: 109148, guid: 9035ac955fc8a1c4390015095d8fa7b1, type: 2}
     - target: {fileID: 0}
       propertyPath: fireRate
-      value: 2.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: multiFire

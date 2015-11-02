@@ -117,9 +117,11 @@ public class EnemyView : View
                 dbImg.color = activeColor;
 
                 DBAquiredSignal.Dispatch(_dragonBall);
-
-                GameObject dbAquired = Instantiate(_dbAquired);
-                dbAquired.transform.position = dbObj.transform.position;
+                if (_dbAquired != null)
+                {
+                    GameObject dbAquired = Instantiate(_dbAquired);
+                    dbAquired.transform.position = dbObj.transform.position;
+                }
             }
             else
             {
