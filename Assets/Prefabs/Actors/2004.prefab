@@ -160,7 +160,7 @@ MonoBehaviour:
     m_PostInfinity: 2
   animationDurationY: 5
   animationDurationX: 3
-  projectile: {fileID: 109148, guid: 6ad07468ba0f46047ac1881c01e6c481, type: 2}
+  projectile: {fileID: 109148, guid: e6c1f6572996d4943a5a25fedf23ad9a, type: 2}
   fireRate: 3.0999999
   multiFire: 2
   multiFireRate: .330000013
@@ -202,7 +202,7 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: projectile
       value: 
-      objectReference: {fileID: 109148, guid: 6ad07468ba0f46047ac1881c01e6c481, type: 2}
+      objectReference: {fileID: 109148, guid: e6c1f6572996d4943a5a25fedf23ad9a, type: 2}
     - target: {fileID: 0}
       propertyPath: fireRate
       value: 3.0999999
